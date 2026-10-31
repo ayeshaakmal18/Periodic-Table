@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elementa | Periodic Table</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a class="brand" href="#">✦ ELEMENTA</a>
+        <span>CHEMISTRY EXPLORER</span>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div>
+                <small>THE ELEMENT COLLECTION</small>
+
+                <h1>
+                    Explore the<br>
+                    <em>building blocks</em><br>
+                    of everything.
+                </h1>
+
+                <p>
+                    Discover all 118 elements.
+                    Select any tile to reveal its properties.
+                </p>
+            </div>
+
+            <div class="orb">
+                <b>118</b>
+            </div>
+
+        </section>
+
+        <!-- Statistics -->
+        <section class="stats">
+
+            <div>
+                <b>118</b>
+                <small>ELEMENTS</small>
+            </div>
+
+            <div>
+                <b>18</b>
+                <small>GROUPS</small>
+            </div>
+
+            <div>
+                <b>7</b>
+                <small>PERIODS</small>
+            </div>
+
+            <p>One table. A universe of discoveries.</p>
+
+        </section>
+
+        <!-- Periodic Table -->
+        <section class="table-section">
+
+            <small>INTERACTIVE PERIODIC TABLE</small>
+
+            <h2>Find your element<span>.</span></h2>
+
+            <!-- Search and Filter -->
+            <div class="controls">
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search name, symbol or atomic number..."
+                >
+
+                <select id="filter">
+                    <option value="all">All categories</option>
+                </select>
+
+                <button id="reset">Reset ↺</button>
+
+            </div>
+
+            <!-- Category Legend -->
+            <div id="legend" class="legend"></div>
+
+            <p id="count">Showing 118 of 118 elements</p>
+
+            <!-- Elements -->
+            <div class="scroll">
+                <div id="table" class="table"></div>
+            </div>
+
+            <p class="hint">
+                Swipe horizontally on smaller screens to explore the full table.
+            </p>
+
+        </section>
+
+        <!-- Bottom Section -->
+        <section class="note">
+
+            <b>✧</b>
+
+            <div>
+                <h3>Curiosity is the first element.</h3>
+
+                <p>
+                    Every element has a story.
+                    Click a tile and start exploring.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Element Details Popup -->
+    <div id="overlay" class="overlay">
+
+        <section class="modal">
+
+            <button id="close" class="close">&times;</button>
+
+            <div id="details"></div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        ELEMENTA • MADE FOR THE CURIOUS
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
