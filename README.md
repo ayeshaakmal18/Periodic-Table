@@ -1,5 +1,5 @@
 
-# Elementa – Purple Edition 🧪
+# Elementa – 🧪
 
 An interactive Periodic Table of Elements built using HTML, CSS, and JavaScript.
 
